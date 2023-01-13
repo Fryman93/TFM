@@ -1,0 +1,13 @@
+name: scCNV
+channels:
+  - defaults
+  - r
+  - conda-forge
+  - bioconda
+dependencies:
+  - r-seurat
+  - r-hdf5r
+  - r-devtools
+  - r-forcats
+  - bioconductor-complexheatmap
+prefix: /Users/mjjimenez/miniconda3/envs/scCNV
